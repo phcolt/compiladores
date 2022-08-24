@@ -1,0 +1,36 @@
+programa
+
+  numero numero1, b, c, d, e, f.
+
+  texto t1, t2.
+
+  leia(numero1).
+  leia(b).
+  leia(t1).
+   
+  numero1 := 10 + numero1 + b.
+  
+  d:= 3.14.
+
+  t2 := "oi".
+  
+  escreva("oi").
+
+  escreva("aqui").
+  
+  se ( numero1 > b ) logo {
+     escreva (numero1).
+  }
+  senao {
+     escreva (b).
+  }
+  
+  repetir (numero1 < b) {
+  	numero1 := numero1 + b.
+  	numero1 := numero1 + b.
+  	numero1 := numero1 + b.
+  	numero1 := numero1 + b.
+  	numero1 := numero1 + b.
+  }
+
+fimprog.
